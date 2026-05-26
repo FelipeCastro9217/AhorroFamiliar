@@ -1,4 +1,4 @@
-package com.ahorro.familiar.data.model
+package com.example.ahorrofamiliar.data.model
 
 data class Miembro(
     val id: Int,

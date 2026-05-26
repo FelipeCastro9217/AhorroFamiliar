@@ -1,4 +1,4 @@
-package com.ahorro.familiar.ui.navigation
+package com.example.ahorrofamiliar.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -7,11 +7,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.ahorro.familiar.ui.screens.CrearMetaScreen
-import com.ahorro.familiar.ui.screens.DetalleMetaScreen
-import com.ahorro.familiar.ui.screens.ListaMetasScreen
-import com.ahorro.familiar.ui.screens.RegistrarPagoScreen
-import com.ahorro.familiar.ui.viewmodel.MetasViewModel
+import com.example.ahorrofamiliar.ui.screens.CrearMetaScreen
+import com.example.ahorrofamiliar.ui.screens.DetalleMetaScreen
+import com.example.ahorrofamiliar.ui.screens.ListaMetasScreen
+import com.example.ahorrofamiliar.ui.screens.RegistrarPagoScreen
+import com.example.ahorrofamiliar.ui.viewmodel.MetasViewModel
 
 
 object Rutas {

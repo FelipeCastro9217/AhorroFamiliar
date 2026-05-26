@@ -1,6 +1,6 @@
-package com.ahorro.familiar
+package com.example.ahorrofamiliar
 
-import com.ahorro.familiar.ui.viewmodel.MetasViewModel
+import com.example.ahorrofamiliar.ui.theme.viewmodel.MetasViewModel
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test

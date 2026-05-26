@@ -1,6 +1,6 @@
-package com.ahorro.familiar.data.network
+package com.example.ahorrofamiliar.data.network
 
-import com.ahorro.familiar.data.model.*
+import com.example.ahorrofamiliar.data.model.*
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

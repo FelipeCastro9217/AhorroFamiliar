@@ -1,4 +1,4 @@
-package com.ahorro.familiar.ui.screens
+package com.example.ahorrofamiliar.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -15,7 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ahorro.familiar.ui.viewmodel.MetasViewModel
+import com.example.ahorrofamiliar.ui.viewmodel
 
 private val MoradoPrincipal = Color(0xFF6200EE)
 

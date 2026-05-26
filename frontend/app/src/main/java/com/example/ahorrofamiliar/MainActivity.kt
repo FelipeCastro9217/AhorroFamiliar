@@ -1,9 +1,10 @@
-package com.ahorro.familiar
+package com.example.ahorrofamiliar
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.ahorro.familiar.ui.navigation.AhorroNavHost
+import com.example.ahorrofamiliar.ui.navigation.AhorroNavHost
+
 
 
 class MainActivity : ComponentActivity() {

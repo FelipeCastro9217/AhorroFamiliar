@@ -1,9 +1,9 @@
-package com.ahorro.familiar.ui.viewmodel
+package com.example.ahorrofamiliar.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ahorro.familiar.data.model.*
-import com.ahorro.familiar.data.repository.AhorroRepository
+import com.example.ahorrofamiliar.data.model.*
+import com.example.ahorrofamiliar.data.repository.AhorroRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

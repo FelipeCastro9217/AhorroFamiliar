@@ -1,4 +1,4 @@
-package com.ahorro.familiar.ui.screens
+package com.example.ahorrofamiliar.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape

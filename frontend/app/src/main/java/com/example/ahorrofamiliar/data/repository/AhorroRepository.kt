@@ -1,7 +1,7 @@
-package com.ahorro.familiar.data.repository
+package com.example.ahorrofamiliar.data.repository
 
-import com.ahorro.familiar.data.model.*
-import com.ahorro.familiar.data.network.AhorroApiService
+import com.example.ahorrofamiliar.data.model.*
+import com.example.ahorrofamiliar.data.network.AhorroApiService
 
 class AhorroRepository {
 
