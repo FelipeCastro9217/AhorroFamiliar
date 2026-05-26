@@ -1,0 +1,140 @@
+{
+  "metas": [
+    {
+      "id": 1,
+      "nombre": "Televisor Samsung 55\"",
+      "descripcion": "TV para la sala",
+      "valorTotal": 2500000,
+      "foto": "https://via.placeholder.com/300x200?text=Televisor",
+      "miembros": [
+        {
+          "id": 1,
+          "nombre": "Juan Pérez"
+        },
+        {
+          "id": 2,
+          "nombre": "María García"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Moto Honda CB190",
+      "descripcion": "Moto para el trabajo",
+      "valorTotal": 8000000,
+      "foto": "https://via.placeholder.com/300x200?text=Moto",
+      "miembros": [
+        {
+          "id": 3,
+          "nombre": "Carlos López"
+        },
+        {
+          "id": 4,
+          "nombre": "Ana Martínez"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Carro Deportivo",
+      "descripcion": "Vehiculo deportivo",
+      "valorTotal": 500000000,
+      "foto": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/DAZBHNH7XJFRBPVNZHTWF5DTHM.jpg",
+      "miembros": [
+        {
+          "id": 5,
+          "nombre": "Yaritza"
+        },
+        {
+          "id": 6,
+          "nombre": "Felipe"
+        },
+        {
+          "id": 7,
+          "nombre": "Jesus"
+        },
+        {
+          "id": 8,
+          "nombre": "Nicolas"
+        }
+      ]
+    }
+  ],
+  "pagos": [
+    {
+      "id": 1,
+      "metaId": 1,
+      "miembroId": 1,
+      "monto": 200000,
+      "fecha": "2026-05-01",
+      "descripcion": "Primer aporte"
+    },
+    {
+      "id": 2,
+      "metaId": 1,
+      "miembroId": 2,
+      "monto": 150000,
+      "fecha": "2026-05-05",
+      "descripcion": "Aporte mayo"
+    },
+    {
+      "id": 3,
+      "metaId": 2,
+      "miembroId": 3,
+      "monto": 500000,
+      "fecha": "2026-05-03",
+      "descripcion": "Cuota inicial"
+    },
+    {
+      "id": 4,
+      "metaId": 3,
+      "miembroId": 5,
+      "monto": 100000000,
+      "fecha": "2026-05-25",
+      "descripcion": "Primer aporte"
+    },
+    {
+      "id": 5,
+      "metaId": 3,
+      "miembroId": 6,
+      "monto": 150000000,
+      "fecha": "2026-05-25",
+      "descripcion": "Abono"
+    },
+    {
+      "id": 6,
+      "metaId": 3,
+      "miembroId": 8,
+      "monto": 10000000,
+      "fecha": "2026-05-25",
+      "descripcion": "Sin descripción"
+    },
+    {
+      "id": 7,
+      "metaId": 3,
+      "miembroId": 7,
+      "monto": 140000000,
+      "fecha": "2026-05-25",
+      "descripcion": "Sin descripción"
+    },
+    {
+      "id": 8,
+      "metaId": 3,
+      "miembroId": 5,
+      "monto": 100000000,
+      "fecha": "2026-05-25",
+      "descripcion": "Sin descripción"
+    },
+    {
+      "id": 9,
+      "metaId": 3,
+      "miembroId": 6,
+      "monto": 1000000,
+      "fecha": "2026-05-25",
+      "descripcion": "Sin descripción"
+    }
+  ],
+  "nextMetaId": 4,
+  "nextPagoId": 10,
+  "nextMiembroId": 9
+}
