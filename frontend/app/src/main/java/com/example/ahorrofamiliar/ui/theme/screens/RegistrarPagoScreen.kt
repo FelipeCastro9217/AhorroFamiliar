@@ -13,7 +13,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ahorro.familiar.ui.viewmodel.MetasViewModel
+import com.example.ahorrofamiliar.ui.viewmodel.MetasViewModel
 
 private val MoradoPrincipal = Color(0xFF6200EE)
 

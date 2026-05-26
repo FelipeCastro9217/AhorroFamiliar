@@ -19,8 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.ahorro.familiar.data.model.Meta
-import com.ahorro.familiar.ui.viewmodel.MetasViewModel
+import com.example.ahorrofamiliar.data.model.Meta
+import com.example.ahorrofamiliar.ui.viewmodel.MetasViewModel
 
 private val MoradoPrincipal = Color(0xFF6200EE)
 
