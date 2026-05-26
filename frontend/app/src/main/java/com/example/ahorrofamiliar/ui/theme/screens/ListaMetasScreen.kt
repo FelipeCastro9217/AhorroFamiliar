@@ -22,7 +22,6 @@ import coil.compose.AsyncImage
 import com.ahorro.familiar.data.model.Meta
 import com.ahorro.familiar.ui.viewmodel.MetasViewModel
 
-// Color morado principal de la app (coincide con el tema del mockup)
 private val MoradoPrincipal = Color(0xFF6200EE)
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -141,7 +140,7 @@ fun MetaCard(meta: Meta, onClick: () -> Unit) {
         colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {
         Column {
-            // Imagen de la meta
+
             AsyncImage(
                 model = meta.foto,
                 contentDescription = meta.nombre,
@@ -153,7 +152,7 @@ fun MetaCard(meta: Meta, onClick: () -> Unit) {
             )
 
             Column(modifier = Modifier.padding(16.dp)) {
-                // Nombre de la meta
+
                 Text(
                     text = meta.nombre,
                     style = MaterialTheme.typography.titleLarge,
@@ -163,7 +162,7 @@ fun MetaCard(meta: Meta, onClick: () -> Unit) {
 
                 Spacer(Modifier.height(4.dp))
 
-                // Descripción si existe
+
                 if (meta.descripcion.isNotBlank()) {
                     Text(
                         text = meta.descripcion,
@@ -173,7 +172,7 @@ fun MetaCard(meta: Meta, onClick: () -> Unit) {
                     )
                 }
 
-                // Valores financieros
+
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
@@ -208,7 +207,7 @@ fun MetaCard(meta: Meta, onClick: () -> Unit) {
 
                 Spacer(Modifier.height(10.dp))
 
-                // Barra de progreso
+
                 LinearProgressIndicator(
                     progress = { (meta.porcentajeCumplido / 100f).coerceIn(0f, 1f) },
                     modifier = Modifier
@@ -221,7 +220,7 @@ fun MetaCard(meta: Meta, onClick: () -> Unit) {
 
                 Spacer(Modifier.height(6.dp))
 
-                // Porcentaje y miembros
+
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
